@@ -15,9 +15,9 @@
 
 # Tasks
 ## 1-3. Complete the following tasks:
-- Generator
-- Merger
-- Video Library
+- [Generator](generator/Generator.java)
+- [Merger](merger/Merger.java)
+- [Video Library](video-lib/VideoLibrary.java)
 
 ### Acceptance criteria
 The application is accepted if:
