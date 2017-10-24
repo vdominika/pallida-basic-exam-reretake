@@ -6,7 +6,7 @@ public class Generator {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Please enter a number, which is higher than 0");
         int inputNumber = myScanner.nextInt();
-        //       System.out.println(generator(20));
+ //       System.out.println(generator(20));
     }
 
     public static void generator(int inputNumber){
