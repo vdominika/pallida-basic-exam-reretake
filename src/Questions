@@ -1,0 +1,17 @@
+4. Question time! (~10 mins) [4p]
+
+ What is encapsulation? Explain it with an example! [2p]
+ Your answer:
+
+ To ensure that implementation details are not visible to users the variables of one class will be hidden from other classes, accessible only through the methods of the current class. This is data hiding.
+ Ariables are private, and getter -setter methods are public to modify and use the variables.
+ This "phenomenon" is what we call as an encapsulation.
+
+
+ What is a unit test? What are different test cases? [2p]
+ Your answer:
+
+Unit testing means testing the smaller units of your application, like classes and methods.
+The reason you test your code is to prove to yourself, and perhaps to the users / clients / customers, that your code works.
+Unit tests are typically automated, meaning once they are implemented, you can run them again and again. That is, your computer can run them again and again, while you do something else.
+Unit tests are implemented as classes with test methods. Each test method usually tests a single method of the target class. Sometimes, a test method can test more than one method in the target class, and sometimes, if the method to test is big, you split the test into multiple test methods. You can have as many test methods in a unit test class as you want. The test runners will find them all, and execute each of them.
