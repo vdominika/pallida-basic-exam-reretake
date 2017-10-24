@@ -1,5 +1,3 @@
-public class VideoLibrary {
-}
 
 public class VideoLibrary {
     public static void main(String[] args) {
@@ -13,13 +11,13 @@ public class VideoLibrary {
         // Guest guest = new Guest("Jon Doe", "Somewhere in Minnesota");
         // Video video = new Video("Titanic", "James Cameron", 1997);
         // guest.borrow(video);
-         System.out.println(guest);
-         should print out
-         Jon Doe is currently borrowing the Titanic.
-         guest.return();
-         System.out.println(guest);
-         Jon Doe is not borrowing anything currently.
-         System.out.println(video);
-         Titanic by James Cameron from 1997 - borrowed 1 times.
-//    }
+//         System.out.println(guest);
+//         should print out
+//         Jon Doe is currently borrowing the Titanic.
+//         guest.return();
+//         System.out.println(guest);
+//         Jon Doe is not borrowing anything currently.
+//         System.out.println(video);
+//         Titanic by James Cameron from 1997 - borrowed 1 times.
+    }
 }
