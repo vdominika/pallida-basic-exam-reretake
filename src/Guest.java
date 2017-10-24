@@ -19,6 +19,7 @@ public class Guest {
     public void setAddress(){
         this.address = address;
     }
+
     public String getAddress(){
         return address;
     }
@@ -27,7 +28,7 @@ public class Guest {
         this.video = video;
     }
 
-    public void returnVideo(){
+   public String returnVideo(){
         if (video != null){
             return name + " is currently borrowing the " + video.getTitle() + ".";
         }else{
