@@ -1,4 +1,4 @@
-private static class Guest {
+public class Guest {
     private String name;
     private String address;
     private Video video;

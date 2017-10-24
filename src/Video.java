@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-private static class Video {
+public  class Video {
     private String title;
     private String director;
     private int releaseYear;
