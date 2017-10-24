@@ -1,8 +1,37 @@
-public class Guest extends VideoLibrary{
-    String name;
-    String Address;
+private static class Guest {
+    private String name;
+    private String address;
+    private Video video;
 
-    public Guest (String name, String Address){
+    public Guest (String name, String address){
+        this.name = name;
+        this.address = address;
+    }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setAddress(){
+        this.address = address;
+    }
+    public String getAddress(){
+        return address;
+    }
+
+    public void borrow (Video video){
+        this.video = video;
+    }
+
+    public void returnVideo(){
+        if (video != null){
+            return name + " is currently borrowing the " + video.getTitle() + ".";
+        }else{
+            return name + " is not borrowing anything currently.";
+        }
     }
 }

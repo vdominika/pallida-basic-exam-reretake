@@ -16,7 +16,7 @@ public class Merger {
 
         ArrayList<String> order = new ArrayList<>();
 
-        for (int i = 0; i < elso.length(); i++) {
+        for (int i = 0; i < elso.size(); i++) {
             order.add(elso.get(i) + ", " + masodik.get(i));
         }
     }
