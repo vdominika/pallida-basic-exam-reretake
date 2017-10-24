@@ -9,12 +9,14 @@ public class Merger {
                                            Arrays.asList("bokor", "tolgy", "fenyo")));
 
         public void merger(ArrayList<String> elso, ArrayList<String> masodik){
+
+    }
         ArrayList<String> elso = new ArrayList<>(Arrays.asList("kutya", "macska", "kecske"));
         ArrayList<String> masodik = new ArrayList<>(Arrays.asList("bokor", "tolgy", "fenyo"));
 
         ArrayList<String> order = new ArrayList<>();
 
-        for (int i = 0; i < elso.size(); i++) {
+        for (int i = 0; i < elso.length(); i++) {
             order.add(elso.get(i) + ", " + masodik.get(i));
         }
     }
